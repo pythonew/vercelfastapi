@@ -74,7 +74,11 @@ def example(parameter: str):
 "nagad-01856090070":"ag-10",
 "Upay-01878022203":"ag-10",
 "Rocket-018780222035":"ag-10",
-"Rocket-018560900709":"ag-10"}
+"Rocket-018560900709":"ag-10",
+"nagad-01890143525":"ag-1",
+"Upay-01878209604":"ag-1",
+"BKASH-01878209604":"ag-1",
+"Upay-01847206000":"ag-1"}
 
     agant = data[parameter]
     return agant
