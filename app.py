@@ -76,7 +76,8 @@ def example(parameter: str):
 "BKASH - 01629291223":"AGENT 11"}
 
     agant = data[parameter]
-    return {parameter:agant}
+    return {'bankcode':parameter,
+           'agant':agant}
 
 
 @app.get("/")
