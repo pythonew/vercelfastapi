@@ -1,13 +1,14 @@
 from fastapi import FastAPI
-import datetime
 
 app = FastAPI()
 
 @app.get("/example/{parameter}")
 def example(parameter: str):
+    data = {'Nagad-01874706405':'agant2'}
+    agant = data[parameter]
     return {
-        "parameter": parameter,
-        "datetime": datetime.datetime.now().time()
+        "bankcode": parameter,
+        "agant": agant
     }
 
 @app.get("/")
