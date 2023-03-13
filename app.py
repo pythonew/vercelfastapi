@@ -78,7 +78,7 @@ def example(parameter: str):
 
 
     agant = data[parameter]
-    return {parameter:agant}
+    return agant
 
 
 @app.get("/")
