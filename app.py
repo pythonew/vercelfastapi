@@ -37,6 +37,7 @@ def example(parameter: str):
 "Bkash-01857101415":"AG-3",
 "Bkash-01851228855":"AG-3",
 "Bkash-01836164143":"AG-3",
+"Nagad-01857101415"::"AG-3",
 "Bkash-01835671000":"AG-4",
 "Bkash-01872517111":"AG-4",
 "NAGAD-01835236800":"AG-4",
