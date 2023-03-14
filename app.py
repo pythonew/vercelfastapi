@@ -83,7 +83,10 @@ def example(parameter: str):
 "Rocket-01765226630":"ag-4",
 }
 
-    agant = data[parameter]
+    try:
+        agant = data[parameter]
+    except:
+        agant = 'NewBank'
     return agant
 
 
