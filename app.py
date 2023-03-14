@@ -81,6 +81,7 @@ def example(parameter: str):
 "Upay-01847206000":"ag-1",
 "NAGAG-01890143525":"ag-1",
 "Rocket-01765226630":"ag-4",
+"Bkash-01872517111":"ag-4",
 }
 
     try:
